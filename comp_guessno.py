@@ -5,7 +5,7 @@ def cguess():
     if given_no != random_no:
         if given_no < random_no:
             while given_no < random_no:
-                print("if",random_no)
+                print("if",random_no+1)
                 random_no=random_no-1
         elif given_no > random_no:
             while given_no < random_no:
